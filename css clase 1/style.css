@@ -1,0 +1,103 @@
+/* selector de un tag */
+body {
+color: purple;
+background-color: rgba(121, 114, 162, 0.59);
+}
+
+/* selectoor de un id */
+
+#first_title {
+    color: darkslateblue;
+}
+
+/* el selector de una clase */
+
+.text_1{
+    color: aqua;
+}
+
+.parrafo {
+    color: greenyellow;
+}
+/* selector del h2 de tipo title */
+
+.title2 {
+    color: chocolate    ;
+}
+
+p {
+font: oblique bold 100% smaller;
+
+}
+
+p {
+    font: oblique bold ;
+    
+    }
+
+/* selector del p dentro del div */
+div p {
+    color: navy;
+}
+
+.div_h {
+    color: crimson;
+}
+
+* {
+    font-size: 18px;
+    color: black;
+}
+
+/* detalles de la propiedad color */
+
+div p {
+    /* utilizando codigo hexadecimal
+    color: #a8e3e9;
+    color: #f00;
+    */
+
+/* utilizando rgb
+    color: rgb(250, 74, 90);
+    */
+
+    /* utilizando transparencia
+color: rgba(0, 255, 0, 0.5);
+*/
+}
+
+.borde {
+    /*
+    border-style: inset;
+    border-color: lightskyblue;
+    border-width: 2px;
+    */
+    border-radius: 5px;
+    border: 2px lightskyblue inset;
+
+    /* medidas absolutas (es mejor usar medidas relativas) 
+    border-width: 1cm; 
+    border-width: 2mm;
+    border-width: 1in;
+    border-width: 1pt;
+    border-width: 1pc;
+    */
+
+    /* medidas relativas */
+    /* border-width: 1em; */
+   /*  border-width: 2rem; */
+
+}
+
+#fondo {
+ /* background-color: aqua;   */
+ background-image: url("../images/tostadora.jpg");
+ height: 400px;
+
+ background-size: contain ;
+ background-repeat: no-repeat;
+ background-position: center right;
+ /* background: red url(../images/tostadora.jpg) repeat-x center; */
+}
+
+/* leer el PEP8 */
